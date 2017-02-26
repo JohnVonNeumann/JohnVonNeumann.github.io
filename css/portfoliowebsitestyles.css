@@ -2,6 +2,17 @@
 
 }
 
+#left {
+    width: 20%;
+    height: 100%;
+    top: 25%;
+    position: fixed;
+    outline: 1px solid;
+    background: red;
+}
+
+
+
 * {
     box-sizing: border-box;
 }
