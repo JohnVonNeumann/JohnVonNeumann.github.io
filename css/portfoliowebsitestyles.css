@@ -25,6 +25,9 @@ body {
 
 }
 
+.img-responsive {
+  width: 100%;
+}
 .selection-border {
   border-style: double;
   border-width: 0px 2px 0px 2px;
@@ -33,7 +36,6 @@ body {
 
 .links {
   border-bottom: 5px solid black;
-
 }
 
 .no-bullet {
@@ -51,20 +53,10 @@ body {
 
 }
 
-@media (min-width: 767px) {
+@media (max-width: 767px) {
   #navigation{
     position: fixed;
   }
-}
-
-.right-side {
-  overflow: auto;  //code added
-
-}
-.left-side {
-  background-repeat: repeat-y;
-  overflow: hidden;  //code added to prevent scroll
-  position: fixeds;
 }
 
 .intro_p {
