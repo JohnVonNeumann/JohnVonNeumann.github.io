@@ -51,6 +51,15 @@ body {
 
 }
 
+.right-side {
+  overflow: auto;  //code added
+
+}
+.left-side {
+  background-repeat: repeat-y;
+  overflow: hidden;  //code added to prevent scroll
+  position: absolute;
+}
 
 .intro_p {
   margin-bottom: 10%;
