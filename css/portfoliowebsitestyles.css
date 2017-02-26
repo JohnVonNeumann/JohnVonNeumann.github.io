@@ -5,8 +5,8 @@
 #left {
     width: 20%;
     height: 100%;
-    top: 50em;
-    position: fixed;
+    top: 50%;
+    position: sticky;
     background: #BF1800;
 }
 
