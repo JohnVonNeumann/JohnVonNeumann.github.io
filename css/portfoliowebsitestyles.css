@@ -59,6 +59,7 @@ body {
 .no-bullet {
   list-style: none;
 }
+
 .links-list {
 	list-style: none;
 	text-align: center;
@@ -78,7 +79,12 @@ body {
 }
 
 .intro_p {
+  margin-top: 10%;
   margin-bottom: 10%;
+}
+
+.intro_quote {
+  margin-top: 10%;
 }
 
 .center-intro-quote{
@@ -92,8 +98,14 @@ body {
   padding: 5px;
 }
 
+.lock-to-bottom {
+  position: fixed;
+  bottom: 0;
+}
+
+
 h1 {
-  font-size: 2.3em;
+  font-size: 2em;
 }
 
 h2 {
@@ -101,5 +113,5 @@ h2 {
 }
 
 p {
-  font-size: .9em;
+  font-size: .8em;
 }
