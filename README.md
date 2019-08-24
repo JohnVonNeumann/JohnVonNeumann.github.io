@@ -1,5 +1,9 @@
 # JohnVonNeumann.github.io
 
+## Using the repository
+
+Uses `pipenv` to handle the dependencies, which are located in `Pipfile` and `Pipfile.lock`.
+
 #### https://gist.github.com/wh1tney/2ad13aa5fbdd83f6a489
 > How I got the HTML static site running on Heroku.
 
