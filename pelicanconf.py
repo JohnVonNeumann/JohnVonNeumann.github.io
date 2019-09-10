@@ -25,7 +25,8 @@ AUTHOR_FEED_RSS = None
 LINKS = (('Pelican', 'http://getpelican.com/'),)
 
 # Social widget
-SOCIAL = (('LinkedIn', 'https://www.linkedin.com/in/glasshalffullstackdeveloper/'),)
+SOCIAL = (('LinkedIn', 'https://www.linkedin.com/in/glasshalffullstackdeveloper/'),
+          ('Github', 'https://github.com/JohnVonNeumann'),)
 
 DEFAULT_PAGINATION = False
 
