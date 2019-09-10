@@ -1,1 +1,5 @@
+# Vim swap files
 *.sw*
+
+# ctags lock file
+tags.lock
