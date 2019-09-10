@@ -10,6 +10,8 @@ PATH = 'content'
 
 TIMEZONE = 'Australia/Sydney'
 
+THEME = 'notmyidea'
+
 DEFAULT_LANG = 'en'
 
 # Feed generation is usually not desired when developing
