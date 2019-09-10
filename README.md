@@ -14,3 +14,6 @@ After this, you will be able to issue the normal `Pelican` commands:
 
         pelican content
 
+After generating content, you can serve a localhost on port 8000 with:
+
+        pelican --listen
