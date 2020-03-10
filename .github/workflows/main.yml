@@ -26,3 +26,8 @@ jobs:
         python-version: '3.7'
     - uses: dschep/install-pipenv-action@v1
     - run: pipenv install
+    - run: pipenv run pelican content
+    - run: pipenv run make s3_upload
+      env:
+        AWS_ACCESS_KEY_ID: ${{ secrets.aws_access_key_id }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.aws_secret_access_key }}
