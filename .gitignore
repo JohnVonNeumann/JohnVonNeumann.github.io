@@ -3,3 +3,6 @@
 
 # ctags lock file
 tags.lock
+
+# ignore locally generated output
+output/
