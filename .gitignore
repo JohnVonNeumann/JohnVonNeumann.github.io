@@ -6,3 +6,5 @@ tags.lock
 
 # ignore locally generated output
 output/
+
+__pycache__/
